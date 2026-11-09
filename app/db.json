@@ -1,0 +1,101 @@
+{
+  "orase": [
+    {
+      "id": "1",
+      "oras": "Madrid",
+      "tara": "Spania",
+      "pret": 520
+    },
+    {
+      "id": "2",
+      "oras": "Barcelona",
+      "tara": "Spania",
+      "pret": 480
+    },
+    {
+      "id": "3",
+      "oras": "Praga",
+      "tara": "Cehia",
+      "pret": 310
+    },
+    {
+      "id": "4",
+      "oras": "Viena",
+      "tara": "Austria",
+      "pret": 390
+    }
+  ],
+  "destinatii": [
+    {
+      "id": "1",
+      "oras": "Lisabona",
+      "tara": "Portugalia",
+      "zile": 4,
+      "vizitat": false
+    },
+    {
+      "id": "2",
+      "oras": "Cluj-Napoca",
+      "tara": "România",
+      "zile": 2,
+      "vizitat": true
+    },
+    {
+      "id": "3",
+      "oras": "Porto",
+      "tara": "Portugalia",
+      "zile": 3,
+      "vizitat": false
+    },
+    {
+      "id": "4",
+      "oras": "Braşov",
+      "tara": "România",
+      "zile": 2,
+      "vizitat": true
+    },
+    {
+      "id": "5",
+      "oras": "Kyoto",
+      "tara": "Japonia",
+      "zile": 6,
+      "vizitat": false
+    },
+    {
+      "id": "6",
+      "oras": "Tokyo",
+      "tara": "Japonia",
+      "zile": 5,
+      "vizitat": false
+    },
+    {
+      "oras": "ramnicu sarat",
+      "tara": "Romania",
+      "zile": 3,
+      "vizitat": false,
+      "id": "BbsfW5z-B60"
+    },
+    {
+      "oras": "slobozia",
+      "tara": "Romania",
+      "zile": 5,
+      "vizitat": false,
+      "id": "ImUY-wCVd8k"
+    },
+    {
+      "oras": "buzau",
+      "tara": "bulgaria",
+      "zile": 12,
+      "vizitat": false,
+      "id": "FqZTMa9VafM"
+    },
+    {
+      "oras": "madrid",
+      "tara": "spania",
+      "zile": 23,
+      "vizitat": false,
+      "id": "4bdNZ1pI72Q"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

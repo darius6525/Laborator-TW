@@ -19,6 +19,7 @@ h1 {
   display: flex;
   gap: 0.6rem;
   margin-bottom: 1.5rem;
+  align-items: flex-start; /* Necesar pentru alinierea corectă a mesajelor de eroare de sub câmpuri */
 }
 
 .formular input {
@@ -27,6 +28,13 @@ h1 {
   border: 1px solid #c3c7cf;
   border-radius: 7px;
   font: inherit;
+  min-width: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.camp {
+  flex: 1;
   min-width: 0;
 }
 
@@ -82,4 +90,89 @@ button {
 
 .card.vizitat button {
   background: #10b981;
+}
+
+/* --- STILURI NOI - LABORATORUL 4 --- */
+
+.cautare {
+  margin-bottom: 1.2rem;
+}
+
+.cautare input {
+  width: 100%;
+  padding: 0.5rem 0.7rem;
+  border: 1px solid #c3c7cf;
+  border-radius: 7px;
+  font: inherit;
+  box-sizing: border-box;
+}
+
+.stare {
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  background: #eff6ff;
+  color: #1e40af;
+}
+
+.stare.eroare {
+  background: #fef2f2;
+  color: #991b1b;
+}
+
+.formular input.invalid {
+  border-color: #ef4444;
+  background: #fef2f2;
+}
+
+.eroare-camp {
+  margin: 0.2rem 0 0 0;
+  font-size: 0.85rem;
+  color: #ef4444;
+}
+
+button:disabled {
+  background: #9ca3af;
+  cursor: not-allowed;
+}
+
+.gol {
+  padding: 2rem;
+  border: 2px dashed #d8dbe0;
+  border-radius: 10px;
+  text-align: center;
+  color: #6b7280;
+}
+
+/* --- STILURI PENTRU EXERCIȚIUL 4 (PANOU STATISTICI) --- */
+
+.panou {
+  margin-bottom: 1.4rem;
+  padding: 0.9rem 1rem;
+  border: 1px solid #d8dbe0;
+  border-radius: 10px;
+}
+
+.panou h2 {
+  margin: 0 0 0.6rem 0;
+  font-size: 1.1rem;
+}
+
+.panou label {
+  font-size: 0.9rem;
+  color: #4b5563;
+}
+
+.panou input {
+  width: 70px;
+  padding: 0.3rem 0.5rem;
+  border: 1px solid #c3c7cf;
+  border-radius: 6px;
+  font: inherit;
+}
+
+.panou ul {
+  margin: 0.7rem 0 0 0;
+  padding-left: 1.1rem;
+  color: #4b5563;
+  font-size: 0.95rem;
 }
